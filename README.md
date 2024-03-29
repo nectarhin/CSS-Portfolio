@@ -1,2 +1,2 @@
-# CSS-Portfolio
-My first CSS website
+# CSS-portfolio
+My website with CSS

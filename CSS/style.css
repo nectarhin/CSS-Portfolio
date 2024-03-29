@@ -1,0 +1,110 @@
+.main-background {
+  background: rgb(207, 232, 240);
+  background: linear-gradient(
+    90deg,
+    rgb(228, 240, 255) 41%,
+    rgba(131, 179, 255, 0.329) 100%
+  );
+}
+.card-body {
+  background: rgb(227, 238, 254);
+}
+.gradient-background {
+  background: linear-gradient(300deg, rgb(199, 244, 255), rgb(193, 197, 249), rgb(242, 182, 182));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-me,.card-text {
+  font-family: sans-serif;
+}
+.logo-rounded {
+  border-radius: 50%;
+  height: 20px;
+}
+.logo {
+  height: 18px;
+}
+.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.name {
+  font-family: sans-serif;
+  color: rgb(2, 2, 2);
+  font-size: 4rem;
+  font-weight: bold;
+}
+.header-background {
+  background-color: rgb(232, 235, 238);
+}
+.my-photo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+.bold-text {
+  font-weight: 800;
+  color: #212529;
+}
+.parent {
+  margin-left: 100px;
+}
+@media only screen and (max-width: 992px) {
+  .parent {
+    margin-left: unset;
+  }
+}
+
+.date {
+  color: rgb(1, 123, 153);
+}
+.date2 {
+  font-size: 20px;
+  color: rgb(52, 52, 52);
+}
+.cards-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 270px;
+  object-fit: cover;
+}
+
+.img-h2 {
+  padding-bottom: 8px;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px rgb(90, 89, 89);
+}
+
+.centered-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.hover:hover{
+  transform:scale(1.5,1.5) ;
+}
+
+.hover-pic:hover{
+  transform: scale(1.1,1.1);
+}
+
